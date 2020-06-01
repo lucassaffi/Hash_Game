@@ -46,9 +46,9 @@ class hash_game:
         #Set icon's size
         icon_size = icon_size
         #Load and resize icons. Replace the path of these icons.
-        player_A_icon = pygame.image.load('C:\\Users\\lucas\\OneDrive\\ML\\Tests\\Hash_Game\\Images\\close.png')
+        player_A_icon = pygame.image.load('C:\\Users\\lucas\\OneDrive\\ML\\Tests\\Hash_Game\\close.png')
         player_A_icon = pygame.transform.scale(player_A_icon,(icon_size,icon_size))
-        player_B_icon = pygame.image.load('C:\\Users\\lucas\\OneDrive\\ML\\Tests\\Hash_Game\\Images\\circle.png')
+        player_B_icon = pygame.image.load('C:\\Users\\lucas\\OneDrive\\ML\\Tests\\Hash_Game\\circle.png')
         player_B_icon = pygame.transform.scale(player_B_icon,(icon_size,icon_size))
         #Set screen's color
         screen.fill((screen_color[0],screen_color[1],screen_color[2]))
